@@ -1,0 +1,134 @@
+/* Define el color de fondo de la página */
+body {
+  background-color: #FDF6E3;
+}
+
+/* Define el estilo del menú de navegación */
+nav {
+  background-color: #FFC3B0;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Define el estilo de los párrafos */
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+/* Define el estilo de las tablas */
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #FFC3B0;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 1px 1px #333;
+}
+
+/* Define el estilo de la sección de video */
+#video {
+  margin: 20px 0;
+}
+
+/* Define el estilo del mapa de Google */
+#map {
+  margin: 20px 0;
+  height: 400px;
+}
+
+/* Define el estilo del formulario de contacto */
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Separación de imágenes de habitaciones */
+img {
+  margin-right: 10px;
+}
+
+/*Imagenes habitaciones acomodadas*/
+.habitaciones-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.habitaciones-container figure {
+  margin: 0;
+  text-align: center;
+  width: 300px;
+}
+
+.habitaciones-container figcaption {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+
+/*TIPO de letra*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
